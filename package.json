@@ -1,5 +1,15 @@
 {
+  "name": "hexlet-js",
+  "version": "1.0.0",
+  "description": "My Hexlet JS project",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node index.js",
+    "format": "prettier . --write"
+  },
   "dependencies": {
+    "lodash": "^4.17.21",
     "hexo": "^8.1.0"
   },
   "devDependencies": {
